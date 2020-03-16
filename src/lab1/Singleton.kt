@@ -1,3 +1,5 @@
+package lab1
+
 class Singleton private constructor() {
     /*private constructor() используется для того, чтобы гарантировать,
     * что объект данного класса будет создан только внутри этого класса*/
@@ -9,7 +11,7 @@ class Singleton private constructor() {
      * при создании объекта независимо от того,
      * с помощью какого конструктора этот объект создаётся.*/
     init {
-        println("This ($this) is a Singleton")
+        println("This ($this) is a lab1.Singleton")
     }
     //используется для создания единственного экземпляра класса::Wq:WQ:WQwq
     private object Holder {
@@ -21,7 +23,7 @@ class Singleton private constructor() {
     * при первом получении доступа функция используется для инициализации свойства,
     * а при дальнейших обращениях она просто возвращается.*/
     companion object {
-        val instance: Singleton by lazy { Holder.INSTANCE}
+        val instance: Singleton by lazy { Holder.INSTANCE }
     }
 
 }
