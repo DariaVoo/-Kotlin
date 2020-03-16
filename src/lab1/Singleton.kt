@@ -13,7 +13,7 @@ class Singleton private constructor() {
     init {
         println("This ($this) is a lab1.Singleton")
     }
-    //используется для создания единственного экземпляра класса::Wq:WQ:WQwq
+    //используется для создания единственного экземпляра класса
     private object Holder {
         val INSTANCE = Singleton()
     }
@@ -27,10 +27,10 @@ class Singleton private constructor() {
     }
 
 }
-
+/*
 fun main(args: Array<String>) {
     var first = Singleton.instance
     first.b = "Hiiii!"
     var second = Singleton.instance
     println(second.b)
-}
+}*/
