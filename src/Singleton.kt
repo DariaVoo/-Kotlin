@@ -11,7 +11,7 @@ class Singleton private constructor() {
     init {
         println("This ($this) is a Singleton")
     }
-    //используется для создания единственного экземпляра класса
+    //используется для создания единственного экземпляра класса::Wq:WQ:WQwq
     private object Holder {
         val INSTANCE = Singleton()
     }
