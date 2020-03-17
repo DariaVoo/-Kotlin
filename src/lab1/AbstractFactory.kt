@@ -5,7 +5,7 @@ data class Car(var passengers: MutableList<Passenger>,
                val driver: IDriver, var countPassenger: Int = 0)
 data class Driver(val id: Long, val name: String, var license: String)
 
-//Итерфейс для водителей
+//Интерфейс для водителей
 interface IDriver {
     fun getDriver(driver: Driver): Driver?
     fun printDriver()

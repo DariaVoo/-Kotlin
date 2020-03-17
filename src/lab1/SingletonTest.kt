@@ -10,9 +10,11 @@ internal class SingletonTest {
     fun testSingleton() {
         val first = Singleton.instance
         first.b = "Hi!"
+        println(first)
         assertEquals(expected ="Hi!", actual = first.b)
 
         val second = Singleton.instance
+        println(second)
         assertEquals(expected ="Hi!", actual = second.b)
     }
 

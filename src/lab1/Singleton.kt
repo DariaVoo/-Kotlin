@@ -7,11 +7,8 @@ class Singleton private constructor() {
     var b: String? = null
 
     //Будет вызван при первом вызове Singlenton.instance
-    /*Инициализаторы — это некий блок кода, обязательно выполняемый
-     * при создании объекта независимо от того,
-     * с помощью какого конструктора этот объект создаётся.*/
     init {
-        println("This ($this) is a lab1.Singleton")
+        println("This ($this) is a Singleton")
     }
     //используется для создания единственного экземпляра класса
     private object Holder {
@@ -27,10 +24,3 @@ class Singleton private constructor() {
     }
 
 }
-/*
-fun main(args: Array<String>) {
-    var first = Singleton.instance
-    first.b = "Hiiii!"
-    var second = Singleton.instance
-    println(second.b)
-}*/
