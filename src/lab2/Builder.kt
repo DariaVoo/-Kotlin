@@ -43,7 +43,7 @@ class Transport (
             }
             shipBuilder.boardSailor(ships)
             //Удаляем суда без матросов
-            ships.removeIf{ i-> i !=null && i.sailors!!.isEmpty()}
+            ships.removeIf{ i -> i !=null && i.sailors!!.isEmpty()}
             if (ships.isEmpty()) {
                 println("!!! No sailors")
                 return null
@@ -51,7 +51,7 @@ class Transport (
 
             shipBuilder.boardPassengers(ships)
             //Удаляем суда без пассажиров
-            ships.removeIf{ i-> i !=null && i.passengers!!.isEmpty()}
+            ships.removeIf{ i -> i !=null && i.passengers!!.isEmpty()}
             if (ships.isEmpty()) {
                 println("!!! No ship passengers.")
                 return null
