@@ -9,8 +9,19 @@ abstract class AirClass(
     val seats: MutableMap<Seat, Passenger?> = mutableMapOf<Seat, Passenger?>()
 ) {
 
+
+    /**
+    * Аналог метода add
+    * В идеале должен принимать примитивы и внутри метода определять какие это примитивы
+    **/
     abstract fun boardPassenger(passengers: MutableList<Passenger>)
+
+    /**
+     * Аналог метода remove
+     * В идеале должен принимать примитивы и внутри метода определять какие это примитивы
+     * */
     abstract fun removeBag(currentWeight: Int, maxAirWeidth: Int = 0): Int
+
     abstract fun printNameClass()
     abstract fun printOverBag()
 
