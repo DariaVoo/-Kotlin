@@ -23,6 +23,4 @@ class Proxy(): ImageBox() {
         realImageBox.mouseClicked(p0)
     }
 
-
-
 }
