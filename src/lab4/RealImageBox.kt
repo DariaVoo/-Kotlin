@@ -10,8 +10,8 @@ import javax.swing.SwingConstants.LEADING
 
 class RealImageBox: ImageBox() {
     init {
-        print("Init RealImageBox")
-        createUI(title)
+        println("Init RealImageBox")
+        createUI("Pivet")
         this.addMouseListener(this)
     }
 

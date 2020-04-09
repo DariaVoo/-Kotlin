@@ -10,7 +10,7 @@ abstract class Rule(
 }
 
 //TerminalExpression
-class MultiplieSpaces(): Rule(Regex(""" +"""), " ")
+class MultiplieSpaces(): Rule(Regex("""[ ]+"""), " ")
 class MultiplieTabs(): Rule(Regex("""\t+"""), "\t")
 class DashInsteadHyphen(): Rule(Regex("""-+"""), "—")
 class PolygraphicInsteadQuote1(): Rule(Regex("""“+"""), "«")
