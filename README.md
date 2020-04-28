@@ -6,7 +6,7 @@ Design Patterns(GoF) implemented in Kotlin.
 
 * Behavioral Patterns
 	* [Observer / Listener]()
-	* [Interpreter]()
+	* [Interpreter](src/lab5/lab5.md)
 * Creational Patterns
 	* [Builder](src/lab2/lab2.md)
 	* [Singleton](src/lab1/lab1.md)
