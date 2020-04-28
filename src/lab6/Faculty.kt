@@ -33,7 +33,9 @@ class Faculty(
             o.removeObserver(this)
         }
         teachers.remove(o)
-        println("!!${o.report.subject} teacher - ${o.name} is DISMISS\n")
+        println("_______________________________________________________")
+        println("!!${o.report.subject} teacher - ${o.name} is DISMISS")
+        println("_______________________________________________________")
     }
 
     override fun registerObserver(o: IObserver) {
@@ -43,7 +45,9 @@ class Faculty(
     override fun removeObserver(o: IObserver) {
         for (teacher in teachers)
             teacher.removeObserver(this)
+        println("----------------------------------------")
         println("!!!The faculty ${this.name} disbanded!!!")
+        println("----------------------------------------")
     }
 
     override fun notifyObservers() {

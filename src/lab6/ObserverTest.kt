@@ -8,8 +8,8 @@ internal class ObserverTest {
     @Test
     fun check() {
         val date1 = LocalDate.parse("2020-04-01")
-        val date2 = LocalDate.parse("2020-03-12")
-        val date3 = LocalDate.parse("2020-04-08")
+        val date2 = LocalDate.parse("2020-03-20")
+        val date3 = LocalDate.parse("2020-04-20")
         val date4 = LocalDate.parse("2020-01-08")
         //Reports
         val rep1 = Grades(date1, "Python", mutableListOf("Petrov;33;sucess"))
@@ -37,5 +37,9 @@ internal class ObserverTest {
         t2.makeReport(rep4)
 
         dean.deliteFaculty(ipovs)
+
+        val spintech = Faculty("SPINTECH", mutableListOf(t1, t2, t3))
+        dean.addFaculty(spintech)
+        t3.makeReport(rep3)
     }
 }

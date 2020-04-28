@@ -6,7 +6,7 @@ import javax.swing.JFrame
 
 
 private fun createAndShowGUI() {
-    val Im = RealImageBox()
+    val Im = Proxy()
     println("Wait")
     Thread.sleep(3_000) // wait for 3 seconds
     Im.createUI("Hiii")

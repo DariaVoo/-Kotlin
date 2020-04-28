@@ -25,8 +25,14 @@ class Dean(
 
     }
 
+    //Расформировать факультет
     fun deliteFaculty(f: Faculty) {
         this.faculty.remove(f)
         f.removeObserver(this)
+    }
+
+    fun addFaculty(f: Faculty) {
+        this.faculty.add(f)
+        f.registerObserver(this)
     }
 }

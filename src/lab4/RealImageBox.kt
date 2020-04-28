@@ -9,6 +9,9 @@ import javax.swing.SwingConstants.LEADING
 
 
 class RealImageBox: ImageBox() {
+//    var width: Int = 0
+//    var height: Int = 0
+
     init {
         println("Init RealImageBox")
         createUI("Pivet")
@@ -17,6 +20,7 @@ class RealImageBox: ImageBox() {
 
     override fun createUI(title: String) {
 //        val im = ImageIO.read(File("src//lab4//m1.jpg"))
+        setImage("src//lab4//m1.jpg")
         setTitle(title)
         defaultCloseOperation = EXIT_ON_CLOSE
         setSize(640,640)
@@ -37,8 +41,11 @@ class RealImageBox: ImageBox() {
         this.layout = BorderLayout()
         this.contentPane = back
         this.layout= FlowLayout()
+//        this.height = back.height
+//        this.width = back.width
+
         setSize(641,641)
-        setSize(640,640)
+        setSize(640, 640)
     }
 
     override fun mouseClicked(p0: MouseEvent?) {

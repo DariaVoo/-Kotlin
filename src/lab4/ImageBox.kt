@@ -5,6 +5,7 @@ import java.awt.event.MouseListener
 import javax.swing.JFrame
 
 abstract class ImageBox(): MouseListener, JFrame() {
+
     abstract fun createUI(title: String)
 
     abstract fun setText()
