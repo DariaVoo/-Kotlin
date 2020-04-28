@@ -9,8 +9,8 @@ Design Patterns(GoF) implemented in Kotlin.
 	* [Interpreter]()
 * Creational Patterns
 	* [Builder]()
-	* [Singleton]()
-	* [Abstract Factory]()
+	* [Singleton](src/lab1/lab1.md)
+	* [Abstract Factory](src/lab1/lab1.md)
 * Structural Patterns
 	* [Proxy]()
 	* [Composite]()
