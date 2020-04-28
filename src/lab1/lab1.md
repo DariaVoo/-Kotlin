@@ -27,5 +27,5 @@ _Задание:_
 [Решение](src/lab1/AbstractFactory.kt)
 
 ## Тесты
-* [Задание 1](src/lab1/Singleton.kt)
+* [Задание 1](src/lab1/SingletonTest.kt)
 * [Задание 2](src/lab1/AbstractFactoryTest.kt)
