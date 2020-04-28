@@ -13,7 +13,7 @@ Design Patterns(GoF) implemented in Kotlin.
 	* [Abstract Factory](src/lab1/lab1.md)
 * Structural Patterns
 	* [Proxy]()
-	* [Composite]()
+	* [Composite](src/lab3/lab3.md)
   
   
 [RU](README.RU.md)
