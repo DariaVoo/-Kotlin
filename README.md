@@ -1,5 +1,5 @@
 # Design-Patterns-Kotlin
-Design Patterns implemented in Kotlin. 
+Design Patterns(GoF) implemented in Kotlin. 
 
 
 ## Table of Contents
